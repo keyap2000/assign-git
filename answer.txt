@@ -1,12 +1,18 @@
-•  What is a gitignore file and what should it include for a Java project?
-gitignore file keeps record of files that need to be disregarded when commit command has been executed in the project.
+â€¢  What is a gitignore file and what should it include for a Java project?
+gitignore file keeps record of files that need to be disregarded when commit command has been executed in the project[1].
 gitignore file will include files such as jar, war, classpath, etc. for a java project.
  
-•  What does fast-forward in git mean? 
-fast-forward is summation of rebase and merge. Fast-forward commits to the target branch from the source branch; it will generate a new commit that shouldn't be merged for each and every incoming commit.
+â€¢  What does fast-forward in git mean? 
+fast-forward is summation of rebase and merge. Fast-forward commits to the target branch from the source branch; it will generate a new commit that shouldn't be merged for each and every incoming commit[2].
 
-•  Why should you have different branches? 
-Developers can isolate their work from other developers in the team and can branch out from original code base so whether its running or getting some errors won't affect the running code.
+â€¢  Why should you have different branches? 
+Developers can isolate their work from other developers in the team and can branch out from original code base so whether its running or getting some errors won't affect the running code[3].
 
-•  In a project how many remote Git repositories do you usually have?
-One can have as many remotes as one want but there should be only one remote named origin because it is the default remote created by git when one clone an existing repository. 
+â€¢  In a project how many remote Git repositories do you usually have?
+One can have as many remotes as one want but there should be only one remote named origin because it is the default remote created by git when one clone an existing repository[4]. 
+
+References:
+[1] https://www.bmc.com/blogs/gitignore/#:~:text=gitignore%20file%20tells%20Git%20which,root%20directory%20of%20your%20repo.&text=%2F%20will%20ignore%20directories%20with%20the%20name.
+[2] https://www.tutorialspoint.com/what-is-a-fast-forward-merge-in-git
+[3] https://backlog.com/git-tutorial/using-branches/#:~:text=Branching%20allows%20each%20developer%20to,easily%20merge%20versions%20later%20on.
+[4] https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
